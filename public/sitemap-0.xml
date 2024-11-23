@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url><loc>https://your-domain.com/api</loc></url>
+<url><loc>https://your-domain.com/blog</loc></url>
+<url><loc>https://your-domain.com/contact</loc></url>
+<url><loc>https://your-domain.com/index</loc></url>
+<url><loc>https://your-domain.com/read-later</loc></url>
+<url><loc>https://your-domain.com/search</loc></url>
+<url><loc>https://your-domain.com/blog/Comment se fait le maniere de recouvrement</loc></url>
+<url><loc>https://your-domain.com/blog/Comment utiliser jsx pour faire tout ce que vous voulez</loc></url>
+<url><loc>https://your-domain.com/blog/Definition et step pour se rendre utilisable</loc></url>
+<url><loc>https://your-domain.com/blog/Le point deriere node js dans le terminal</loc></url>
+<url><loc>https://your-domain.com/blog/Les affaires de front end et plus</loc></url>
+<url><loc>https://your-domain.com/blog/Les avantages d&apos;apprendre le mandarin en tant que ingenieur pour les industries</loc></url>
+<url><loc>https://your-domain.com/blog/Les defintios qui sont les meilleurs dans le premiers de affaire </loc></url>
+<url><loc>https://your-domain.com/blog/Les meilleurs solutions deriere la recherche point-to-point resolu</loc></url>
+<url><loc>https://your-domain.com/blog/Quelle sont les erreurs commun deriere l&apos;utilisation</loc></url>
+</urlset>

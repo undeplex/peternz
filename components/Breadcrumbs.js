@@ -7,7 +7,7 @@ function Breadcrumbs({ title,category }) {
     { name: 'Accueil', href: '/' },
     { name: 'Blog', href: '/blog' },
     { name: 'Category', href: '/blog/category' },
-    { name: `${category}`, href: '/blog/tags' },
+    { name: `${category}`, href: `/blog/category/${category.toLowerCase()}` },
     { name: title, href: `/blog/${title.toLowerCase().replace(/ /g, '-')}` },
   ];
 

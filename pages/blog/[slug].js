@@ -28,6 +28,7 @@ import { BookmarkIcon } from '@heroicons/react/24/outline';
 import Loader from '@/components/Loader';
 import LoaderMe from '@/components/LoaderMe';
 import SingleBlogTemplate from '@/components/SingleBlogTemplate';
+import Skeleton from '@/components/Skeleton';
 export async function getStaticPaths() {
   const markdownDir = path.join(process.cwd(), 'markdown');
   const fileNames = await fs.readdir(markdownDir);
@@ -156,6 +157,7 @@ function BlogPost({ blog, relatedBlogs,authorBlogs,mostViewedBlogs }) {
       <Layout>
         <div className="max-w-5xl mx-auto p-6 pt-14">
           <Skeleton />
+          
         </div>
       </Layout>
     );
@@ -182,7 +184,7 @@ function BlogPost({ blog, relatedBlogs,authorBlogs,mostViewedBlogs }) {
       lastUpdated={blog.lastUpdated}
       author={blog.author}
     />
-      <div className="max-w-5xl relative mx-auto p-6 lg:pt-10">
+      <div className="max-w-5xl  relative mx-auto p-6 lg:pt-10">
         <Breadcrumbs title={blog.title} category={blog.category} />
         <h1 className="text-4xl font-bold mb-4">{blog.title}</h1>
         <p className="text-lg mb-4 dark:text-gray-300 text-gray-500">{blog.description}</p>

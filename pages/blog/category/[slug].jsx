@@ -2,6 +2,7 @@ import { getAllCategories, getPostsByCategory } from "@/utils/categories";
 import Layout from "@/components/Layout";
 import BreadcrumbsCategory from "@/components/BreadcrumbsCategory";
 import Head from "next/head"; // Import next/head for SEO management
+import SingleBlogTemplate from "@/components/SingleBlogTemplate";
 
 export async function getStaticPaths() {
   const categories = await getAllCategories();
@@ -21,8 +22,8 @@ export default function CategoryPage({ category, posts }) {
   const seoTitle = `${category} Blogs - Your Website Name`; // Page title for SEO
   const seoDescription = `Browse all posts in the ${category} category. Find insightful blogs and articles related to ${category}.`; // Page description for SEO
   const seoKeywords = `${category}, ${category} blogs, ${category} articles, blog posts in ${category}`; // Keywords for SEO
-  const seoImage = "/default-category-image.jpg"; // A default image for SEO
-  const seoUrl = `https://yourwebsite.com/blog/category/${category.toLowerCase()}`; // The URL of this page
+  const seoImage = "/default-avatar.png"; // A default image for SEO
+  const seoUrl = `https://peternz.vercel.app/blog/category/${category.toLowerCase()}`; // The URL of this page
 
   return (
     <Layout>
@@ -47,10 +48,9 @@ export default function CategoryPage({ category, posts }) {
         <meta name="twitter:image" content={seoImage} />
 
         {/* Favicon */}
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="max-w-4xl mx-auto pt-8">
+      <div className="max-w-4xl mx-auto px-6 pt-8">
         <BreadcrumbsCategory category={category} />
         <h1 className="text-4xl font-bold text-center mb-6 capitalize">
           {category} Blogs
@@ -58,13 +58,8 @@ export default function CategoryPage({ category, posts }) {
         {posts.length > 0 ? (
           <div className="space-y-6">
             {posts.map((post) => (
-              <div key={post.id} className="p-4 border rounded-lg">
-                <h2 className="text-2xl font-semibold">{post.title}</h2>
-                <p className="text-gray-600 my-2">{post.description}</p>
-                <p className="text-sm text-gray-500">
-                  By {post.author || "Unknown"} | {post.readingTime} |{" "}
-                  {new Date(post.date).toLocaleDateString()}
-                </p>
+              <div key={post.id} className="">
+               <SingleBlogTemplate blog={post}/>
               </div>
             ))}
           </div>

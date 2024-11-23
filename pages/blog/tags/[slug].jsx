@@ -2,6 +2,7 @@ import { getAllTags, getPostsByTag } from "@/utils/tags";
 import Layout from "@/components/Layout";
 import BreadcrumbsTags from "@/components/BreadcrumbsTags";
 import Head from "next/head"; // Import next/head for managing SEO
+import SingleBlogTemplate from "@/components/SingleBlogTemplate";
 
 export async function getStaticPaths() {
   const tags = await getAllTags();
@@ -50,7 +51,7 @@ export default function TagPage({ tag, posts }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="max-w-4xl mx-auto pt-8">
+      <div className="max-w-4xl px-6 mx-auto pt-8">
         <BreadcrumbsTags tags={tag} />
         <h1 className="text-4xl font-bold text-center mb-6 capitalize">
           Posts Tagged: {tag}
@@ -58,13 +59,14 @@ export default function TagPage({ tag, posts }) {
         {posts.length > 0 ? (
           <div className="space-y-6">
             {posts.map((post) => (
-              <div key={post.id} className="p-4 border rounded-lg">
-                <h2 className="text-2xl font-semibold">{post.title}</h2>
+              <div key={post.id} className="">
+                {/* <h2 className="text-2xl font-semibold">{post.title}</h2>
                 <p className="text-gray-600 my-2">{post.description}</p>
                 <p className="text-sm text-gray-500">
                   By {post.author || "Unknown"} | {post.readingTime} |{" "}
                   {new Date(post.date).toLocaleDateString()}
-                </p>
+                </p> */}
+                <SingleBlogTemplate blog={post}/>
               </div>
             ))}
           </div>

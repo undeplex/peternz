@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
 
         <div className="relative overflow-hidden">
           <Head>
-
+<meta name="google-site-verification" content="X9VNHlSHe3gZgLhbrxy1m63nEUuU996fT93Kedbafw0" />
           </Head>
           <GoogleAnalytics trackPageViews />
           <PageTransition>

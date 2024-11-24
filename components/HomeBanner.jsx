@@ -7,7 +7,7 @@ export default function HomeBanner() {
   return (
     <div>
         
-        <h1 className="md:text-5xl text-4xl font-bold text-center bg-red-400 play text-transparent dark:from-blue-50 dark:to-gray-500 bg-clip-text bg-gradient-to-r mb-0 from-green-400 to-blue-500">Grow,Learn and have fun Reading 
+        <h1 className="md:text-5xl text-4xl font-bold text-center  play text-transparent dark:from-blue-50 dark:to-gray-500 bg-clip-text bg-gradient-to-r mb-0 from-gray-400 to-slate-900">Grow,Learn and have fun Reading 
           
            </h1>
         <p className=" break-al my-4 text-center md:text-xl dark:text-gray-200  md:w-8/12 mx-auto">

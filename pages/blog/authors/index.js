@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Layout from "@/components/Layout";
 import { getAllAuthors } from "@/utils/authors";
+import Head from "next/head";
 
 export async function getStaticProps() {
   const authors = await getAllAuthors();
@@ -10,6 +11,15 @@ export async function getStaticProps() {
 export default function AuthorsPage({ authors }) {
   return (
     <Layout>
+      <Head>
+        <title>All Authors | Peternz</title>
+        <meta
+          name="description"
+          content="Discover all authors contributing to Peternz. Explore their profiles and writings."
+        />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://peternz.vercel.app/blog/authors" />
+      </Head>
       <div className="max-w-4xl mx-auto px-6 pt-8">
         <h1 className="text-4xl font-bold text-center mb-6">All Authors</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">

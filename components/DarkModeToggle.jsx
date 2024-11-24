@@ -36,12 +36,12 @@ const DarkModeToggle = () => {
     </div>
     <div
       onClick={toggleDarkMode}
-      className={`size-10 lg:hidden grid place-content-center items-center bg-gray-300 bg-opacity-40 rounded-full p-2 cursor-pointer ${
-        isDark ? 'bg-gray-700 bg-opacity-20 ' : ''
+      className={`size-9 lg:hidden grid place-content-center items-center bg-gray-300 bg-opacity-40 rounded-full p-2 cursor-pointer ${
+        isDark ? 'bg-gray-700 bg-opacity-10 ' : ''
       }`}
     >
-      <Sun className={`${isDark ? 'hidden':'block text-gray-600'}`}/>
-      <Moon className={`${!isDark ? 'hidden':'block text-gray-100'}`}/>
+      <Sun className={`size-5 ${isDark ? 'hidden':'block text-gray-600'}`}/>
+      <Moon className={`size-5 ${!isDark ? 'hidden':'block text-gray-100'}`}/>
     
 
     </div>

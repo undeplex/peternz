@@ -4,8 +4,8 @@ import Head from 'next/head';
 const SEOBlog = ({ title, description, url, image }) => {
   const defaultTitle = 'Blog Page - My Website';
   const defaultDescription = 'Explore our blog posts and stay updated with the latest content on various topics.';
-  const defaultImage = '/default-image.jpg'; // Replace with your default image path
-  const siteName = 'My Website';
+  const defaultImage = '/tellme.jpg'; // Replace with your default image path
+  const siteName = 'Peter nz';
   const twitterHandle = '@YourTwitterHandle'; // Replace with your Twitter handle
 
   return (
@@ -15,7 +15,7 @@ const SEOBlog = ({ title, description, url, image }) => {
       <meta name="description" content={description || defaultDescription} />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta name="robots" content="index, follow" />
-      <meta name="author" content="Your Name or Website" />
+      <meta name="author" content="Peter nz" />
 
       {/* Open Graph / Facebook */}
       <meta property="og:type" content="website" />
@@ -34,7 +34,7 @@ const SEOBlog = ({ title, description, url, image }) => {
       <meta name="twitter:creator" content={twitterHandle} />
 
       {/* Favicon */}
-      <link rel="icon" href="/favicon.ico" />
+      <link rel="icon" href="/favicon.png" />
     </Head>
   );
 };

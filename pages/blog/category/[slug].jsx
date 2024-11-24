@@ -56,7 +56,7 @@ export default function CategoryPage({ category, posts }) {
           {category} Blogs
         </h1>
         {posts.length > 0 ? (
-          <div className="space-y-6">
+          <div className=" grid md:grid-cols-2  gap-3">
             {posts.map((post) => (
               <div key={post.id} className="">
                <SingleBlogTemplate blog={post}/>

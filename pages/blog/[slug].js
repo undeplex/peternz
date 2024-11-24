@@ -23,12 +23,15 @@ import { addToReadLater, removeFromReadLater, isInReadLater } from '@/utils/read
 import SEO from '@/components/SEO';
 import SubscribeForm from '@/components/SubscribeForm';
 import { formatDateToFrench } from '@/utils/formatDate';
-import { BookMarkedIcon, ChevronDown } from 'lucide-react';
+import { BookMarkedIcon, ChevronDown, ClipboardCopy } from 'lucide-react';
 import { BookmarkIcon } from '@heroicons/react/24/outline';
 import Loader from '@/components/Loader';
 import LoaderMe from '@/components/LoaderMe';
 import SingleBlogTemplate from '@/components/SingleBlogTemplate';
 import Skeleton from '@/components/Skeleton';
+import ShareBtn from '@/components/ShareBtn';
+import { FaCopy } from 'react-icons/fa';
+import { AiOutlineCopy } from 'react-icons/ai';
 export async function getStaticPaths() {
   const markdownDir = path.join(process.cwd(), 'markdown');
   const fileNames = await fs.readdir(markdownDir);
@@ -186,6 +189,7 @@ function BlogPost({ blog, relatedBlogs,authorBlogs,mostViewedBlogs }) {
     />
       <div className="max-w-5xl  relative mx-auto p-6 lg:pt-10">
         <Breadcrumbs title={blog.title} category={blog.category} />
+      
         <h1 className="text-4xl font-bold mb-4">{blog.title}</h1>
         <p className="text-lg mb-4 dark:text-gray-300 text-gray-500">{blog.description}</p>
          {/* Author Section */}
@@ -204,18 +208,18 @@ function BlogPost({ blog, relatedBlogs,authorBlogs,mostViewedBlogs }) {
             <p className="text-gray-500 dark:text-gray-400">Publié le {formatDateToFrench(blog.date)}</p>
           </div>
         </div>
-        <div className="flex justify-between items-center ">
+        <div className="flex justify-between md:gap-6 md:w-max items-center ">
         <p className="text-blue-500">{blog.category}</p>
             {/* <p className="text-gray-500">{`Last updated: ${formatDateToFrench(blog.lastUpdated)}`}</p> */}
-            <span>|</span>
-            <p className="text-gray-500 dark:text-gray-400">{readTime} min read</p>
-            <span>|</span>
+            <span className="size-2 rounded-full bg-gray-300 dark:bg-gray-500"></span>
+            <p className="text-gray-500 dark:text-gray-300">{readTime} min read</p>
+            <span className="size-2 rounded-full bg-gray-300 dark:bg-gray-500"></span>
         <button
           onClick={handleReadLater}
-          className={`px-4 py-2 text-blue-500 ${isSaved ? 'border-red-500 text-red-500' : 'border-blue-500 '} rounded-full`}
+          className={`px-4 py-2 text-gray-300 ${isSaved ? 'border-red-500 text-red-500' : 'border-gray-300 '} rounded-full`}
           disabled={loading}
         >
-          {loading ? <><LoaderMe/></> : isSaved ? <><BookmarkIcon className="size-5"/></> : <><BookmarkIcon className="size-5"/></>}
+          {loading ? <><LoaderMe/></> : isSaved ? <><BookmarkIcon className="size-6"/></> : <><BookmarkIcon className="size-6"/></>}
         </button>
         </div>
 
@@ -229,7 +233,11 @@ function BlogPost({ blog, relatedBlogs,authorBlogs,mostViewedBlogs }) {
           width="400"
           className="mx-auto md:h-[300px] h-[200px] object-cover w-full"
         />
-
+<div className="mt-8">
+  <div className="flex items-center gap-4">
+    {/* Other share buttons (if any) */}
+   
+  </div></div>
         {/* Tags Section */}
         {blog.tags && (
           <div className="my-4">
@@ -279,13 +287,18 @@ function BlogPost({ blog, relatedBlogs,authorBlogs,mostViewedBlogs }) {
         {/* Share Buttons */}
         <p className="text-gray-500 dark:text-gray-300 my-4">{`Last updated: ${formatDateToFrench(blog.lastUpdated)}`}</p>
 
-        <div className="mt-">
-          <h3 className="text-xl font-bold mb-4">Partager cet article</h3>
+          <h3 className="text-xl  font-bold mb-4">Partager cet article</h3>
+        <div className="mt- flex items-center">
           <ShareButtons
             url={typeof window !== 'undefined' ? window.location.href : ''}
             title={blog.title}
             description={blog.description}
           />
+           <ShareBtn
+      title={blog.title}
+      text={blog.description}
+      url={typeof window !== 'undefined' ? window.location.href : ''}
+    />
         </div>
         <div>
 

@@ -93,7 +93,7 @@ const FeaturedSection = ({ featuredPosts }) => {
         <h1 className="text-4xl font-bold text-center my-5 play">Nos Articles le plus populaires</h1>
         <p className="text-blue-600 mb-5 flex gap-1 b font-bold">VOIR TOUS <Plus/> </p>
         </div>
-        <div className="grid px-6 grid-cols-1 text-left gap-6 md:grid-cols-3 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid px-6 grid-cols-1 text-left gap-6 md:grid-cols-3 sm:grid-cols-2 ">
           {sidePosts.map((post, index) => (
             <SingleBlogTemplate key={index} blog={post} />
           ))}

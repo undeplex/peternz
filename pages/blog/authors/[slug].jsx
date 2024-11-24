@@ -1,5 +1,6 @@
 import { getAllAuthors, getPostsByAuthor } from "@/utils/authors";
 import Layout from "@/components/Layout";
+import Head from "next/head";
 
 export async function getStaticPaths() {
   const authors = await getAllAuthors();
@@ -17,7 +18,17 @@ export async function getStaticProps({ params }) {
 
 export default function AuthorPage({ author, posts }) {
   return (
+    
     <Layout>
+      <Head>
+        <title>Posts by {author} | Peternz</title>
+        <meta
+          name="description"
+          content={`Explore all posts written by ${author} on Peternz. Discover insights, stories, and expertise.`}
+        />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href={`https://peternz.vercel.app/blog/authors/${author}`} />
+      </Head>
       <div className="max-w-4xl mx-auto pt-8">
         <h1 className="text-4xl font-bold text-center mb-6 capitalize">
           Posts by {author}

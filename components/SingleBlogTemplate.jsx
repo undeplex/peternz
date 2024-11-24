@@ -29,12 +29,14 @@ const SingleBlogTemplate = ({ blog }) => {
       : '/default-avatar.png';
 
   return (
-    <div className="dark:text-gray-500 border-b border-gray-500 pb-4 transition-all duration-500 group">
+    <div className="dark:text-gray-500 border-b lg:border-r lg:pr-3 lg:border-b-0 border-gray-500 pb-4 transition-all duration-500 group">
       {/* Blog Image */}
       <Link href={`/blog/${blog.title.replace(/\s+/g, '-').toLowerCase()}`} passHref>
       <div className="flex gap-2">
      
       <div className="flex-1 bg-red-">
+      <div className="text-sm text-blue-500 mb-1">{blog.category}</div>
+
                 <p className="text-lg  font-bold dark:text-white mt-0 pla group-hover:underline">
                 {blog.title}
                 </p>
@@ -52,15 +54,11 @@ const SingleBlogTemplate = ({ blog }) => {
                     /> */}Par
                     <span className="dark:text-gray-50 text-gray-700">{blog.author}</span>
                 </div>
-                <div className="text-sm text-blue-500 mb-1">{blog.category}</div>
+                <div className="text-gray-600 flex justify-between  dark:text-gray-300 text-sm">
+                <p className="flex items-center gap-2">{calculateReadingTime(blog.content)}</p>
+                </div>
                 </div>
 
-                <div className="text-gray-600 flex justify-between mt-3 dark:text-gray-300 text-sm">
-                <div>
-                    {/* {format(new Date(blog.date), 'dd MMMM, yyyy')}  */}
-                    {/* <span className="ml-2">{getElapsedTime(blog.date)}</span> */}
-                </div>
-                </div>
       </div>
       <div className="size-[96px] overflow-hidden mb-2  relative">
           <Image

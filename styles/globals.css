@@ -262,10 +262,10 @@ h6 {
 
 .copy-button {
  
-  background: #0071f3;
+  background: #4e5154;
   color: #fff;
-  top: 3px;
-  left: 5px;
+  top: 5px;
+  right: 5px;
   border: none;
   padding: 5px 10px;
   border-radius: 4px;

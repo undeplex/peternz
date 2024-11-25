@@ -5,10 +5,10 @@ import Link from 'next/link';
 function Breadcrumbs({ title,category }) {
   const breadcrumbItems = [
     { name: 'Accueil', href: '/' },
-    { name: 'Blog', href: '/blog' },
-    { name: 'Category', href: '/blog/category' },
+    { name: 'Article', href: '/blog' },
+    
     { name: `${category}`, href: `/blog/category/${category.toLowerCase()}` },
-    { name: title, href: `/blog/${title.toLowerCase().replace(/ /g, '-')}` },
+   
   ];
 
   return (

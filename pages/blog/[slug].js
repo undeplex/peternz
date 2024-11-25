@@ -190,7 +190,7 @@ function BlogPost({ blog, relatedBlogs,authorBlogs,mostViewedBlogs }) {
       <div className="max-w-5xl  relative mx-auto p-6 lg:pt-10">
         <Breadcrumbs title={blog.title} category={blog.category} />
       
-        <h1 className="text-4xl font-bold mb-4">{blog.title}</h1>
+        <h1 className="text-3xl font-bold mb-4">{blog.title}</h1>
         <p className="text-lg mb-4 dark:text-gray-300 text-gray-500">{blog.description}</p>
          {/* Author Section */}
          <div className="flex items-center gap-4 mb-6">
@@ -310,7 +310,7 @@ function BlogPost({ blog, relatedBlogs,authorBlogs,mostViewedBlogs }) {
             <h2 className="text-2xl font-bold mb-6">Plus d'article par {blog.author}</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {authorBlogs.map((authorBlog) => (
-                <SingleBlog key={authorBlog.slug} blog={authorBlog} />
+                <SingleBlogTemplate key={authorBlog.slug} blog={authorBlog} />
               ))}
             </div>
             <a href="/author-posts-url" className="text-blue-500 mt-4 block">

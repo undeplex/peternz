@@ -26,7 +26,7 @@ const ShareBtn = ({ title, text, url }) => {
   return (
     <button
       onClick={handleShare}
-      className="px-4  bg-opacity-10 ml-4 rounded-full flex items-center gap-1 py-3 bg-blue-500 text-blue-500 hover:bg-blue-600 transition"
+      className="px-4  bg-opacity-10 ml-4 rounded-full flex items-center gap-1 py-3 bg-blue-500 text-blue-500 transition"
     >
       +
       <Share2Icon/>

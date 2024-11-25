@@ -1,7 +1,7 @@
 // components/RecentPost.js
 import Link from 'next/link';
 import { format } from 'date-fns';
-import SingleBlog from './SingleBlog';
+import SingleBlogTemplate from './SingleBlogTemplate';
 const RecentPost = ({ post }) => {
   return (
       // <div key={post.id} className=" dark:text-gray-500 group ">
@@ -25,7 +25,7 @@ const RecentPost = ({ post }) => {
       //   </div>
       //         </Link>
       //       </div>
-      <SingleBlog blog={post} />
+      <SingleBlogTemplate blog={post} />
   );
 };
 

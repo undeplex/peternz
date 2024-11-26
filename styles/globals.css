@@ -226,7 +226,7 @@ li{
   list-style: none;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: Means; /* Changer la police ici */
+  font-family: ubuntu; /* Changer la police ici */
   margin-top: .5em;
   font-weight: 700; /* Mettre en gras */
 }

@@ -210,17 +210,7 @@ function BlogPost({ blog, relatedBlogs,authorBlogs,mostViewedBlogs }) {
             <p className="text-gray-500 dark:text-gray-400">Publié le {formatDateToFrench(blog.date)}</p>
           </div>
         </div>
-        <div className="flex justify-between md:gap-6 md:w-max items-center ">
-     
-        <button
-          onClick={handleReadLater}
-          className={`px-4 py-2 text-gray-300 ${isSaved ? 'border-red-500 text-red-500' : 'border-gray-300 '} rounded-full`}
-          disabled={loading}
-        >
-          {loading ? <><LoaderMe/></> : isSaved ? <><BookmarkIcon className="size-6 inline"/>Remove from Read Later</> : <><BookmarkIcon className="size-6 inline"/>Add To Read Later</>}
-        </button>
-        </div>
-
+      
         <ToastContainer />
         <div className="my-5">
           {/* <ShareButtons/> */}
@@ -299,6 +289,16 @@ function BlogPost({ blog, relatedBlogs,authorBlogs,mostViewedBlogs }) {
     />
         </div>
         <div>
+  <div className="flex justify-between md:gap-6 md:w-max items-center ">
+     
+        <button
+          onClick={handleReadLater}
+          className={`px-4 py-2 text-gray-500 ${isSaved ? 'border-red-500 text-red-500' : 'border-gray-300 '} rounded-full`}
+          disabled={loading}
+        >
+          {loading ? <><LoaderMe/></> : isSaved ? <>Remove from Read Later</> : <>Add To Read Later</>}
+        </button>
+        </div>
 
         </div>
 

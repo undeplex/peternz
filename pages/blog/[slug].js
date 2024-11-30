@@ -190,7 +190,7 @@ function BlogPost({ blog, relatedBlogs,authorBlogs,mostViewedBlogs }) {
       <div className="max-w-5xl  relative mx-auto p-6 lg:pt-10">
         <Breadcrumbs title={blog.title} category={blog.category} />
       
-        <h1 className="text-3xl play font-bold mb-4">{blog.title}</h1>
+        <h1 className="text-2xl play font-bold mb-4">{blog.title}</h1>
         <p className="text-lg mb-4 dark:text-gray-300 text-gray-500">{blog.description}</p>
          {/* Author Section */}
          <div className="flex items-center gap-4 mb-6">
@@ -201,7 +201,7 @@ function BlogPost({ blog, relatedBlogs,authorBlogs,mostViewedBlogs }) {
             className="object-cover dark:ring-opacity-20 ring-opacity-15 ring-4 ring-gray-400 dark:ring-gray-200 rounded-full"
           />
     
-          <div>
+          <div className="flex flex-col gap-1">
             <p className=" text-gray-500 flex items-center gap-4 dark:text-gray-300">
 
               {blog.author}

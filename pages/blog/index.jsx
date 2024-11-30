@@ -9,7 +9,6 @@ import rehypeStringify from 'rehype-stringify';
 import Layout from '@/components/Layout';
 import SingleBlog from '@/components/SingleBlog';
 import Filters from '@/components/Filters';
-import ReactPaginate from 'react-paginate';
 import SEOBlog from '@/components/SEOBlog';
 import SkeletonLoader from '@/components/SkeletonLoader';
 import SingleBlogTemplate from '@/components/SingleBlogTemplate';
@@ -45,19 +44,25 @@ export async function getStaticProps() {
 }
 
 const BlogPage = ({ blogs }) => {
-  const [currentPage, setCurrentPage] = useState(0);
   const [filteredBlogs, setFilteredBlogs] = useState(blogs);
+  const [displayedBlogs, setDisplayedBlogs] = useState([]);
+  const [showMoreLoading, setShowMoreLoading] = useState(false);
   const [sortOrder, setSortOrder] = useState('mostRecent');
-  const [loading, setLoading] = useState(false);
 
-  const POSTS_PER_PAGE = 10;
+  const INITIAL_POSTS = 5;
+  const POSTS_INCREMENT = 2;
+
+  useEffect(() => {
+    // Initialize with the first set of blogs
+    setDisplayedBlogs(filteredBlogs.slice(0, INITIAL_POSTS));
+  }, [filteredBlogs]);
 
   const simulateLoading = (callback) => {
-    setLoading(true);
+    setShowMoreLoading(true);
     setTimeout(() => {
       callback();
-      setLoading(false);
-    }, 2000); // 2 seconds delay
+      setShowMoreLoading(false);
+    }, 1500); // 1.5 seconds delay
   };
 
   const applyFilters = () => {
@@ -85,28 +90,23 @@ const BlogPage = ({ blogs }) => {
     applyFilters();
   }, [sortOrder]);
 
-  const pageCount = Math.ceil(filteredBlogs.length / POSTS_PER_PAGE);
-  const currentBlogs = filteredBlogs.slice(
-    currentPage * POSTS_PER_PAGE,
-    (currentPage + 1) * POSTS_PER_PAGE
-  );
-
-  const handlePageClick = ({ selected }) => {
+  const handleShowMore = () => {
     simulateLoading(() => {
-      setCurrentPage(selected);
+      const newPostsCount = displayedBlogs.length + POSTS_INCREMENT;
+      setDisplayedBlogs(filteredBlogs.slice(0, newPostsCount));
     });
   };
 
   return (
     <Layout>
-        {/* SEO Component */}
-        <SEOBlog
+      {/* SEO Component */}
+      <SEOBlog
         title="Blog Page"
         description="Discover the latest blogs, articles, and updates from our website."
         url="https://www.example.com/blog"
         image="/blog-header.jpg" // Replace with a relevant image URL
-        />
-     
+      />
+
       <div className="max-w-7xl mx-auto p-6">
         <h1 className="text-3xl font-bold text-center mb-6">Catalogue Complet des articles</h1>
 
@@ -117,41 +117,34 @@ const BlogPage = ({ blogs }) => {
           resetFilters={() => {
             setSortOrder('mostRecent');
             setFilteredBlogs([...blogs]);
-            setCurrentPage(0);
+            setDisplayedBlogs(blogs.slice(0, INITIAL_POSTS));
           }}
         />
 
-        {loading ? (
-        
-          <SkeletonLoader/>
-        ) : (
-          <div className="grid grid-cols-1 md:grid-cols-3  lg:grid-cols-4 gap-6">
-            {currentBlogs.map((blog) => (
+        {showMoreLoading && <SkeletonLoader />}
+
+        {!showMoreLoading && (
+          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            {displayedBlogs.map((blog) => (
               <div key={blog.id} className="cursor-pointer">
-              
-                <SingleBlogTemplate blog={blog}/>
-             
+                <SingleBlogTemplate blog={blog} />
               </div>
             ))}
           </div>
         )}
 
-        {/* Pagination */}
-        <div className="mt-6 list-none">
-          <ReactPaginate
-            previousLabel={'←'}
-            nextLabel={'→'}
-            pageCount={pageCount}
-            onPageChange={handlePageClick}
-            containerClassName={'flex justify-center space-x-2'}
-            pageClassName={'mx-2'}
-            pageLinkClassName="px-4 py-2 border rounded-md hover:bg-gray-100"
-            activeLinkClassName="bg-blue-500 text-white"
-            previousLinkClassName="px-4 py-2 border rounded-md mr-2"
-            nextLinkClassName="px-4 py-2 border rounded-md ml-2"
-            disabledClassName={'opacity-50 cursor-not-allowed'}
-          />
-        </div>
+        {/* Show More Button */}
+        {displayedBlogs.length < filteredBlogs.length && (
+          <div className="mt-6 flex justify-center">
+            <button
+              onClick={handleShowMore}
+              className="px-6 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition"
+              disabled={showMoreLoading}
+            >
+              {showMoreLoading ? 'Loading...' : 'Show More'}
+            </button>
+          </div>
+        )}
       </div>
     </Layout>
   );

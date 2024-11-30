@@ -190,7 +190,7 @@ function BlogPost({ blog, relatedBlogs,authorBlogs,mostViewedBlogs }) {
       <div className="max-w-5xl  relative mx-auto p-6 lg:pt-10">
         <Breadcrumbs title={blog.title} category={blog.category} />
       
-        <h1 className="text-3xl font-bold mb-4">{blog.title}</h1>
+        <h1 className="text-3xl play font-bold mb-4">{blog.title}</h1>
         <p className="text-lg mb-4 dark:text-gray-300 text-gray-500">{blog.description}</p>
          {/* Author Section */}
          <div className="flex items-center gap-4 mb-6">
@@ -205,7 +205,7 @@ function BlogPost({ blog, relatedBlogs,authorBlogs,mostViewedBlogs }) {
             <p className=" text-gray-500 flex items-center gap-4 dark:text-gray-300">
 
               {blog.author}
-<p class name="text-gray-500">Lecture{readTime} min </p> 
+<p class name="text-gray-600 dark:text-gray-300">Lecture {readTime} min </p> 
               </p>
             <p className="text-gray-500 dark:text-gray-400">Publié le {formatDateToFrench(blog.date)}</p>
           </div>
@@ -217,7 +217,7 @@ function BlogPost({ blog, relatedBlogs,authorBlogs,mostViewedBlogs }) {
           className={`px-4 py-2 text-gray-300 ${isSaved ? 'border-red-500 text-red-500' : 'border-gray-300 '} rounded-full`}
           disabled={loading}
         >
-          {loading ? <><LoaderMe/></> : isSaved ? <><BookmarkIcon className="size-6"/>Read Later</> : <><BookmarkIcon className="size-6"/></>}
+          {loading ? <><LoaderMe/></> : isSaved ? <><BookmarkIcon className="size-6 inline"/>Remove from Read Later</> : <><BookmarkIcon className="size-6 inline"/>Add To Read Later</>}
         </button>
         </div>
 

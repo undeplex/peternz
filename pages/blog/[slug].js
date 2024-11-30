@@ -202,24 +202,22 @@ function BlogPost({ blog, relatedBlogs,authorBlogs,mostViewedBlogs }) {
           />
     
           <div>
-            <p className=" text-gray-500 flex items-center gap-1 dark:text-gray-300">
-              {blog.author} <ChevronDown className="size-5 inline"/>
+            <p className=" text-gray-500 flex items-center gap-4 dark:text-gray-300">
+
+              {blog.author}
+<p class name="text-gray-500">Lecture{readTime} min </p> 
               </p>
             <p className="text-gray-500 dark:text-gray-400">Publié le {formatDateToFrench(blog.date)}</p>
           </div>
         </div>
         <div className="flex justify-between md:gap-6 md:w-max items-center ">
-        <p className="text-blue-500">{blog.category}</p>
-            {/* <p className="text-gray-500">{`Last updated: ${formatDateToFrench(blog.lastUpdated)}`}</p> */}
-            <span className="size-2 rounded-full bg-gray-300 dark:bg-gray-500"></span>
-            <p className="text-gray-500 dark:text-gray-300">{readTime} min read</p>
-            <span className="size-2 rounded-full bg-gray-300 dark:bg-gray-500"></span>
+     
         <button
           onClick={handleReadLater}
           className={`px-4 py-2 text-gray-300 ${isSaved ? 'border-red-500 text-red-500' : 'border-gray-300 '} rounded-full`}
           disabled={loading}
         >
-          {loading ? <><LoaderMe/></> : isSaved ? <><BookmarkIcon className="size-6"/></> : <><BookmarkIcon className="size-6"/></>}
+          {loading ? <><LoaderMe/></> : isSaved ? <><BookmarkIcon className="size-6"/>Read Later</> : <><BookmarkIcon className="size-6"/></>}
         </button>
         </div>
 

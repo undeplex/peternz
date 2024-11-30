@@ -201,13 +201,13 @@ function BlogPost({ blog, relatedBlogs,authorBlogs,mostViewedBlogs }) {
             className="object-cover dark:ring-opacity-20 ring-opacity-15 ring-4 ring-gray-400 dark:ring-gray-200 rounded-full"
           />
     
-          <div className="flex flex-col gap-1">
-            <p className=" text-gray-500 flex items-center my-0 gap-4 dark:text-gray-300">
+          <div className="flex flex-col gap">
+            <p className=" text-gray-500 flex items-center my-0 gap-4 text-sm dark:text-gray-300">
 
               {blog.author}
 <p class name="text-gray-600 dark:text-gray-300">Lecture {readTime} min </p> 
               </p>
-            <p className="text-gray-500 my-0 dark:text-gray-400">Publié le {formatDateToFrench(blog.date)}</p>
+            <p className="text-gray-500 my-0 dark:text-gray-400 text-sm">Publié le {formatDateToFrench(blog.date)}</p>
           </div>
         </div>
       

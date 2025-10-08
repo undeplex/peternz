@@ -5,7 +5,7 @@ import ExpandableText from './ExpendableText';
 export default function Profiler() {
     const longText = `
     
-Fort d'une solide expérience dans l'univers du web, Pierre est également en charge de toutes les intégrations en matière d'UI/UX (expérience utilisateur et interface utilisateur). Il joue un rôle clé dans l'optimisation des parcours clients, en veillant à ce que chaque point de contact digital reflète l’identité et les valeurs de la marque.
+Fort d'une solide expérience dans l'univers du web, Pierre est également en charge de toutes les intégrations en matière d'UI/UX (expérience utilisateur et interface utilisateur). Il joue un rôle clé dans l'optimisation des parcours clients, en veillant à ce que chaque point de contact digital reflète  l’identité et les valeurs de la marque.
     
 
 Son expertise s'étend à l'implémentation de solutions technologiques innovantes pour améliorer la performance des plateformes en ligne, maximiser l'engagement des utilisateurs, et augmenter la conversion. Polyvalent et axé sur les résultats, Pierre met un point d'honneur à créer des expériences digitales cohérentes et engageantes qui soutiennent la croissance de la marque Doic dans un environnement numérique en constante évolution.

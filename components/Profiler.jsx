@@ -13,7 +13,7 @@ Son expertise s'étend à l'implémentation de solutions technologiques innovant
   return (
     <div className="max-w-md mx-auto">
         <div className="flex gap-3 items-center">
-            <img src="/profiler2.jpg" width="100px" className="rounded-full size-[50px] object-cover ring-4 ring-gray-0"/>
+            <img src="/profil.jpeg" width="100px" className="rounded-full size-[50px] object-cover ring-4 ring-gray-0"/>
             <div>
 
                 <p className="play text-xl">Pierre Nzana</p>

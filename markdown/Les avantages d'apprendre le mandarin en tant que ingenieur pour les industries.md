@@ -5,8 +5,8 @@ featured: true
 element: false
 views: 40
 title: "What Do You Need To Know Before You Go For Being Self-Taught"
-author: "Ivvy janker"
-authorImage: 
+author: "Peter Nzana"
+authorImage: "/peterNz.jpg"
 authorGender: F
 category: "English"
 description: "It's a type of misunderstanding when it comes to builing our own foreign language skill"

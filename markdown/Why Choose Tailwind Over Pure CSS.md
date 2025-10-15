@@ -6,7 +6,7 @@ element: false
 views: 9000
 title: "Why Choose Tailwind CSS Over Pure CSS "
 author: "Peter Nzana"
-authorImage: "/profiler2.jpg"
+authorImage: "peterNz.jpg"
 category: "computer science"
 description: "This blog post explores the advantages of using Tailwind CSS over pure CSS, with real-world examples and code snippets to help you make an informed decision."
 date: "2024-11-24T00:00:00Z"

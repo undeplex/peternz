@@ -6,7 +6,7 @@ element: false
 views: 40
 title: "How do you want to build the infras of a single server "
 author: "Peter Nzana"
-authorImage: "/profiler2.jpg"
+authorImage: "/peterNz.jpg"
 category: "computer science"
 description: "admin systeme job is now available to any one with just a GED"
 date: "2022-10-20T00:00:00Z"

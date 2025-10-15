@@ -5,9 +5,9 @@ featured: true
 element: false
 views: 900
 title: "Not Only Learning Is Enough To Fall Into Place Easily"
-author: "Pleiza xin"
+author: "Peter Nzana"
 authorGender: F
-authorImage: 
+authorImage: "peterNz.jpg"
 category: "science et life-style"
 description: "Once we've mastered the basic you will be prone to subdue the rest , mistake ,right? "
 date: "2024-05-13T00:00:00Z"

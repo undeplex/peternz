@@ -5,8 +5,8 @@ featured: true
 element: false
 views: 400
 title: "Basic Concept Of Coding And Then Not Doing Anything"
-author: "John Creen"
-authorImage: "/profiler2.jpg"
+author: "Peter Nzana"
+authorImage: "/peterNz.jpg"
 authorGender: M
 category: "Computer Science"
 description: "Genuine reality seen among some whose trying to get more done"

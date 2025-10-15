@@ -5,7 +5,7 @@ element: false
 views: 8900
 title: "Next.js 14: A Comprehensive Guide with Code Examples "
 author: "Peter Nzana"
-authorImage: "/profiler2.jpg"
+authorImage: "/peterNz.jpg"
 category: "Technology"
 description: "Next.js 14 is a significant milestone for modern web development. In this blog, we'll explore its key features, walk through code examples, and provide resources to help you get started."
 date: "2024-11-24T00:19:00Z"

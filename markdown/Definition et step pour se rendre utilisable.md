@@ -6,7 +6,7 @@ element: false
 views: 1240
 title: "Step By Step guide to ultimate reprogramation"
 author: "Peter Nzana"
-authorImage: "peterNz.jpg"
+authorImage: "/peterNz.jpg"
 authorGender: F
 category: "Computer Science"
 description: "Concentration to get this coding project done is a side effect that we can't get enough of as long we know how to deal with it"

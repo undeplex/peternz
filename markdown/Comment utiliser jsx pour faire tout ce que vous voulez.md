@@ -5,9 +5,9 @@ featured: true
 element: false
 views: 650
 title: "How Does Apple Make Their Product Design So Wondrous"
-author: "Player Bills"
+author: "Peter Nzana"
 authorGender: M
-authorImage: 
+authorImage: "peterNz.jpg"
 category: "Technology"
 description: "About that question , we're down the hall to give some response, How Does Apple Make Their Product Design So Wondrous "
 date: "2024-10-10T00:00:00Z"

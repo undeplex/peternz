@@ -5,9 +5,9 @@ featured: true
 element: false
 views: 40
 title: "C'est Quoi Le Fondement de la recherche basique"
-author: "Kali Bash"
+author: "Peter Nzana"
 authorGender: M
-authorImage: "/profiler2.jpg"
+authorImage: "/peterNz.jpg"
 category: "Learning-all"
 description: "Est-ce Possible D'apprendre l'American English Tout En Etant Hors America est une question quise pose parmis tant de "
 date: "2022-10-20T00:00:00Z"

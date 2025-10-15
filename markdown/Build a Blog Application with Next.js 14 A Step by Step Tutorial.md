@@ -6,7 +6,7 @@ element: false
 views: 1200
 title: "Build a Blog Application with Next.js 14: A Step-by-Step Tutorial "
 author: "Peter Nzana"
-authorImage: "/profiler2.jpg"
+authorImage: "/peterNz.jpg"
 category: "Technology"
 description: "In this tutorial, we’ll build a fully functional  blog application using Next.js 14, leveraging its newest features for dynamic routing, SEO, and performance optimization. This project is designed to help you learn practical Next.js 14 concepts step-by-step. "
 date: "2024-11-24T00:12:00Z"

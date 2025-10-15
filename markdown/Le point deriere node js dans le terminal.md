@@ -7,7 +7,7 @@ views: 4009
 title: "Optimised To Do 24 7 Jobs And More"
 author: "Peter Nzana"
 authorGender: M
-authorImage: "peterNz.jpg"
+authorImage: "/peterNz.jpg"
 category: "Technology"
 description: "These computer have been built to stand out at any level and go for as much "
 date: "2022-10-20T00:00:00Z"

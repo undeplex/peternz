@@ -5,9 +5,9 @@ featured:
 element: false
 views: 40
 title: "Windows Is Officially A Linux Based OS ( Kernel)"
-author: "Geree Haul"
+author: "Peter Nzana"
 authorGender: M
-authorImage: 
+authorImage: "peterNz.jpg"
 category: "computer science"
 description: "Why is not the good question but how the have done such thing at all"
 date: "2024-09-02T00:09:00Z"

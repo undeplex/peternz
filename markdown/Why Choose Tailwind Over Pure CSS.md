@@ -1,4 +1,3 @@
-
 ---
 id: 17
 featured: true

@@ -1,157 +1,65 @@
----
-
-id: 9
+id: 10
 featured: true
 element: false
-views: 650
-title: "How Does Apple Make Their Product Design So Wondrous"
-author: "Peter Nzana"
+views: 728
+title: "Les Dangers Cachés derrière l’Automatisation des Workflows d’Entreprise par l’IA"
+author: "Decker Kein"
 authorGender: M
-authorImage: "/peterNz.jpg"
-category: "Technology"
-description: "About that question , we're down the hall to give some response, How Does Apple Make Their Product Design So Wondrous "
-date: "2024-10-10T00:00:00Z"
-lastUpdated: "2024-11-21T00:00:00Z"
-image: "/blog/apple.jpg"
+authorImage: "/decker.jpg"
+category: "Artificial Intelligence"
+description: "Alors que l’IA révolutionne la productivité en entreprise, elle soulève aussi des risques souvent sous-estimés. Découvrons lesquels."
+date: "2025-10-18T00:00:00Z"
+lastUpdated: "2025-10-18T00:00:00Z"
+image: "/blog/ai-workflow-danger.jpg"
 tags:
- - "apple"
- - "computer"
- - "product design"
+ - "AI"
+ - "automation"
+ - "business"
+ - "workflow"
 seo:
-  metaDescription: "Discover the benefits of learning Mandarin for engineers in a globalized world."
-  keywords: "Mandarin, engineers, technology, language learning"
+  metaDescription: "Explorez les risques cachés de l’automatisation des workflows d’entreprise par l’intelligence artificielle : dépendance, sécurité et perte de contrôle humain."
+  keywords: "automatisation, IA, workflow, entreprise, risques, intelligence artificielle"
 toc:
   - text: "Introduction"
     anchor: "introduction"
-  - text: "Step 1: Vocabulary"
-    anchor: "step-1-vocabulary"
-  - text: "Step 2: Practice"
-    anchor: "step-2-practice"
+  - text: "Les promesses de l’automatisation"
+    anchor: "les-promesses-de-l-automatisation"
+  - text: "Les dangers sous-estimés"
+    anchor: "les-dangers-sous-estimes"
+  - text: "Comment limiter les risques"
+    anchor: "comment-limiter-les-risques"
 resources:
-  - title: "Learning Mandarin for Engineers"
-    url: "https://example.com/mandarin-for-engineers"
-  - title: "Docker Installation Guide"
-    url: "https://example.com/docker-install"
+  - title: "AI Workflow Automation: Pros and Cons"
+    url: "https://example.com/ai-workflow-pros-cons"
+  - title: "Responsible AI in Business"
+    url: "https://example.com/responsible-ai"
 
 ---
 
-```jsx
-   // pages/search.js
-import { useState, useEffect } from "react";
-import Fuse from "fuse.js";
-import { useRouter } from "next/router";
-import fs from "fs";
-import path from "path";
-import Layout from "@/components/Layout";
-import { format } from "date-fns";
-import Link from "next/link";
-export default function SearchResultsPage({ blogs }) {
-  const [filteredBlogs, setFilteredBlogs] = useState([]);
-  const [loading, setLoading] = useState(true);
-  const { query } = useRouter();
+# Les Dangers Cachés derrière l’Automatisation des Workflows d’Entreprise par l’IA
 
-  useEffect(() => {
-    if (query.query) {
-      setLoading(true);
-      const fuse = new Fuse(blogs, {
-        keys: ["title", "description", "tags", "category"],
-        includeScore: true,
-        threshold: 0.4,
-      });
-      const results = fuse.search(query.query);
-      setFilteredBlogs(results.map((r) => r.item));
-      setLoading(false);
-    }
-  }, [query.query, blogs]);
+## Introduction
+L’automatisation par l’intelligence artificielle (IA) transforme profondément la manière dont les entreprises fonctionnent. Les **workflows automatisés** promettent gain de temps, efficacité et précision. Mais derrière cette apparente perfection se cachent des **risques majeurs** que peu d’organisations anticipent réellement.
 
-  return (
-    <Layout>
+## Les promesses de l’automatisation
+Les systèmes basés sur l’IA permettent d’automatiser la gestion des processus internes : approbations, analyses de données, support client, ou encore maintenance prédictive.  
+L’objectif est clair : **réduire les coûts** et **améliorer la productivité**. Les entreprises deviennent plus rapides, plus connectées, et moins dépendantes de l’intervention humaine.
 
-    <div className="max-w-4xl mx-auto px-4 py-8">
-      <h1 className="text-2xl font-bold mb-4">Search Results</h1>
-      {loading ? (
-        <p>Loading...</p>
-      ) : (
-        <div className="grid lg:grid-cols-2 gap-4">
-          {filteredBlogs.length > 0 ? (
-            filteredBlogs.map((blog, index) => (
-              <Link key={blog.id} href={`/blog/${blog.title.replace(/\s+/g, '-').toLowerCase()}`}>
+## Les dangers sous-estimés
+Derrière ces avantages se trouvent plusieurs **zones de vulnérabilité** :
+- **Dépendance excessive** : trop d’automatisation peut rendre l’entreprise fragile en cas de panne ou de défaillance algorithmique.  
+- **Biais décisionnels** : les modèles d’IA reproduisent parfois des erreurs ou discriminations issues des données d’entraînement.  
+- **Sécurité des données** : un workflow automatisé mal protégé peut exposer des informations sensibles à des attaques.  
+- **Perte de compétences humaines** : à force de déléguer, les employés perdent la maîtrise des processus et la compréhension du système.
 
-              <div key={index} className="my-3 py-2 border-b border-gray-200">
-                <h2 className="text-xl underline font-semibold">{blog.title}</h2>
-                <p className="my-3">{blog.description}</p>
-
-                <div className="flex gap-2 items-center justify-between">
-                <p className="flex items-center gap-2">
-
-                <img src={blog.authorImage} width="24" className="rounded-full ring-2  object-cover"/>
-                <span className="dark:text-gray-50 text-gray-700">{blog.author}</span>
-                </p>
-                <div className="text-gray-600 mb-1 dark:text-gray-300 text-sm">
-                {format(new Date(blog.date), 'MMMM dd, yyyy')}</div>
-
-                <div className="text-sm text-blue-500 mb-1 hidden sm:block">{blog.category}</div>
-
-              </div>              </div></Link>
-            ))
-          ) : (
-            <p>No results found.</p>
-          )}
-        </div>
-      )}
-    </div>
-    </Layout>
-  );
-}
-
-// Fetch blogs data at build time from blogs.json
-export async function getStaticProps() {
-  const filePath = path.join(process.cwd(), "markdown", "blogs.json");
-  const jsonData = fs.readFileSync(filePath, "utf-8");
-  const blogs = JSON.parse(jsonData);
-
-  return {
-    props: {
-      blogs,
-    },
-  };
-}
-```
+## Comment limiter les risques
+Pour tirer parti de l’IA sans en subir les dérives :
+1. **Maintenir une supervision humaine active** sur les décisions critiques.  
+2. **Auditer régulièrement** les algorithmes et les données utilisées.  
+3. **Former les équipes** à comprendre et surveiller les outils automatisés.  
+4. **Mettre en place des plans de contingence** pour éviter la dépendance totale aux systèmes automatisés.
 
 ---
-## data/categories.js 
 
-Quelle sont les manieres le plus directe pour remplacer dans un fichier ce qui le rend facile a faire
-
-```jsx
-export const categories = [
-    {
-      id: 1,
-      name: 'Well-being',
-      description: 'Tips and tricks to improve your wellness.',
-      slug: 'well-being',
-      icon: '/icons/wellbeing-icon.png',
-    },
-    {
-      id: 2,
-      name: 'Life',
-      description: 'Articles about life balance and lifestyle.',
-      slug: 'life',
-      icon: '/icons/life-icon.png',
-    },
-    {
-      id: 3,
-      name: 'Marketing',
-      description: 'Find peace in everyday life.',
-      slug: 'marketing',
-      icon: '/icons/peaceful-life-icon.png',
-    },
-    {
-      id: 4,
-      name: 'English ',
-      description: 'Where you will find best english course.',
-      slug: 'english',
-      icon: '/icons/peaceful-life-icon.png',
-    },
-  ];
-  ```
+L’automatisation intelligente peut être un puissant moteur de croissance. Mais sans contrôle, elle devient un **risque systémique**.  
+L’équilibre entre **efficacité technologique** et **responsabilité humaine** est la clé d’une transformation durable.

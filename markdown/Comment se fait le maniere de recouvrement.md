@@ -1,3 +1,5 @@
+---
+
 id: 6
 featured: true
 element: false
@@ -34,6 +36,7 @@ resources:
     url: "https://example.com/ai-workflows"
 
 ---
+
 
 # Utilisation des Agents AI en Entreprise
 

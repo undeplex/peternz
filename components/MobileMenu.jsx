@@ -70,6 +70,9 @@ const MobileMenu = () => {
           <Link href="/blog/tags">
             <span className="hover:text-blue-500 play text-3xl">Popular tags</span>
           </Link>
+          <Link href="/authors">
+            <span className="hover:text-blue-500 play text-3xl">Auteurs</span>
+          </Link>
           <Link href="/read-later">
             <span className="hover:text-blue-500 play text-3xl">Read Later</span>
           </Link>

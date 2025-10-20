@@ -55,9 +55,8 @@ export default function Blogs({ recentPosts, featuredPosts, mostViewedPosts }) {
           <FeaturedSection featuredPosts={featuredPosts} />
         )}
 </div>
-<SlidingText/>
 
-<h1 className="text-4xl font-bold text-center mb-6">Recent Blogs (Last 5 Days)</h1>
+<h1 className="text-4xl play font-bold text-center mb-6">Recent Blogs (Last 5 Days)</h1>
         <div className="grid px-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {recentPosts.map(post => (
             <RecentPost key={post.id} post={post} />

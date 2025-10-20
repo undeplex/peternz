@@ -1,5 +1,5 @@
 import { ShareIcon } from '@heroicons/react/24/outline';
-import { Share2Icon } from 'lucide-react';
+import { Share, Share2Icon } from 'lucide-react';
 import React from 'react';
 import { toast } from 'react-toastify';
 
@@ -26,10 +26,10 @@ const ShareBtn = ({ title, text, url }) => {
   return (
     <button
       onClick={handleShare}
-      className="px-4  bg-opacity-10 ml-4 rounded-full flex items-center gap-1 py-3 bg-blue-500 text-blue-500 transition"
+      className="p-3  bg-opacity-10 ml-4 rounded-full flex items-center gap-1 py-3 bg-blue-500 text-blue-500 transition"
     >
-      +
-      <Share2Icon/>
+      
+      <Share2Icon className="w-4 h-4" />
     </button>
   );
 };

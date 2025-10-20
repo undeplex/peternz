@@ -14,15 +14,15 @@ export default async function handler(req, res) {
       const transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-          user: process.env.EMAIL_USER,
-          pass: process.env.EMAIL_PASS,
+          pass: process.env.EMAIL_PASS || "gtfu xnds rluq qwlj",
+          user: process.env.EMAIL_USER || "takeanotch@gmail.com",
         },
       });
 
       // Email content
       const mailOptions = {
         from: email, // Use the user's email address as the "from" address
-        to: process.env.EMAIL_RECEIVER,
+        to: process.env.EMAIL_RECEIVER || "deckerkein@gmail.com",
         subject: `New message from ${name}`,
         text: `You've received a new message from your website:
 

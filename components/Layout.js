@@ -28,7 +28,7 @@ export default function Layout({ children }) {
                     <div className="dark:text-white flex justify-center play my-2 items-center  max-w w-max mx-auto ">
                     <Link href="/">
                         <img className="w-[34px] mx-1 dark:invert" src="/logo-1.svg"/>
-                    </Link><span>Peternz</span>
+                    </Link>
                        
                     </div>
                     <>
@@ -51,7 +51,7 @@ export default function Layout({ children }) {
                         <img className="w-[32px] dark:invert" src="/logo-1.svg"/>
                        
                     </Link>
-                        <span>Peternz</span>
+                       
                        
                     </div>
 
@@ -61,9 +61,7 @@ export default function Layout({ children }) {
                        <div className="flex w-max text-lg  mx-auto mt-2 items-center gap-2 ">
                     <Link href="/blog/authors">Authors</Link>
                     </div>
-                    <div className="">
-                        
-                    </div>
+                   
                        <div className="flex w-max text-lg  mx-auto mt-2 items-center gap-2 ">
                     <Link href="/blog/category">Category</Link>
                     </div>

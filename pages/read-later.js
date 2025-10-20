@@ -47,7 +47,7 @@ function calculateReadingTime(content) {
           content="In order to read some blog later they've got to be added in here using the bookmark icon provided for each blog post"
         />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://peternz.vercel.app/read-later" />
+        <link rel="canonical" href="https://peternz.netlify.app/read-later" />
       </Head>
       <div className="max-w-6xl mx-auto p-6 pt-14">
        

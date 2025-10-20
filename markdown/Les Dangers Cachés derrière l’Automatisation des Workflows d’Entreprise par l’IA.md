@@ -3,7 +3,7 @@ id: 10
 featured: true
 element: false
 views: 728
-title: "Les Dangers Cachés derrière l’Automatisation des Workflows d’Entreprise par l’IA"
+title: "Les Dangers Cachés derrière l’Automatisation des Workflows d’Entreprises par l’IA "
 author: "Decker Kein"
 authorGender: M
 authorImage: "/decker.jpg"

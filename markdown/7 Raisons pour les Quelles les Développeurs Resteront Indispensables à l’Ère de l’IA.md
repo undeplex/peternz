@@ -11,7 +11,7 @@ category: "Technology"
 description: "Même avec l’avancée rapide de l’intelligence artificielle, les développeurs conservent un rôle clé dans la création, la supervision et l’éthique du numérique."
 date: "2025-10-18T00:00:00Z"
 lastUpdated: "2025-10-18T00:00:00Z"
-image: "/blog/developers-ai.jpg"
+image: "/blog/7.png"
 tags:
  - "developers"
  - "AI"

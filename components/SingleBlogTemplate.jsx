@@ -151,7 +151,8 @@ const SingleBlogTemplate = ({ blog }) => {
           <div className="flex-1 min-w-0">
             {/* Category Badge */}
             <div className="inline-flex px-3 py-1 rounded-full bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 text-xs font-medium mb-3 transition-colors">
-              {blog.category}
+                            <TruncateText text={blog.category} limit={10} truncateBy="char" />
+
             </div>
 
             {/* Title */}

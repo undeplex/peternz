@@ -11,7 +11,7 @@ category: "computer science"
 description: "Découvrez les bonnes pratiques pour déployer efficacement Windows Server au sein d’une PME, en alliant performance, sécurité et simplicité de gestion."
 date: "2024-09-02T00:09:00Z"
 lastUpdated: "2024-11-21T00:00:00Z"
-image: "/blog/windows-server.jpeg"
+image: "/blog/win.jpeg"
 tags:
  - "IT Management"
  - "Infrastructure"

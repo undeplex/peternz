@@ -76,9 +76,9 @@ SEO.defaultProps = {
   description: "Default description for the page.",
   keywords: ["default", "keywords"],
   image: "/default-image.png",
-  url: "https://peternz.vercel.app",
+  url: "https://peternz.netlify.app",
   datePublished: "2023-01-01",
-  lastUpdated: "2023-01-01",
+  lastUpdated: "2025-01-01",
   author: "Admin",
 };
 

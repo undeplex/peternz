@@ -10,7 +10,7 @@ category: "Technology"
 description: "Les mises à jour régulières de Windows Server ne se limitent pas à de simples correctifs. Elles garantissent sécurité, performance et stabilité dans un environnement d’entreprise. Découvrez pourquoi et comment les planifier efficacement."
 date: "2024-11-24T00:19:00Z"
 lastUpdated: "2024-11-24T00:16:00Z"
-image: "/blog/windows-server-update.png"
+image: "/blog/update.jpeg"
 tags:
  - "windows-server"
  - "cybersecurity"

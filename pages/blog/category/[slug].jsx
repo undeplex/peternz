@@ -23,7 +23,7 @@ export default function CategoryPage({ category, posts }) {
   const seoDescription = `Browse all posts in the ${category} category. Find insightful blogs and articles related to ${category}.`; // Page description for SEO
   const seoKeywords = `${category}, ${category} blogs, ${category} articles, blog posts in ${category}`; // Keywords for SEO
   const seoImage = "/default-avatar.png"; // A default image for SEO
-  const seoUrl = `https://peternz.vercel.app/blog/category/${category.toLowerCase()}`; // The URL of this page
+  const seoUrl = `https://peternz.netlify.app/blog/category/${category.toLowerCase()}`; // The URL of this page
 
   return (
     <Layout>

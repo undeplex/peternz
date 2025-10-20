@@ -4,7 +4,7 @@ const path = require('path');
 
 /** @type {import('next-sitemap').IConfig} */
 const config = {
-  siteUrl: 'https://peternz.vercel.app', // Replace with your actual domain
+  siteUrl: 'https://peternz.netlify.app', // Replace with your actual domain
   generateRobotsTxt: true,            // To generate robots.txt file
   sitemapSize: 50,                    // Set the max URLs per sitemap file
 

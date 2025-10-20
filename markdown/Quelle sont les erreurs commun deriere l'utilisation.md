@@ -1,5 +1,5 @@
 ---
-id: 1
+id: 34
 featured: true
 element: false
 views: 40
@@ -10,7 +10,7 @@ category: "computer science"
 description: "Discover how artificial intelligence is reshaping business operations, improving decision-making, and driving innovation across industries."
 date: "2022-10-20T00:00:00Z"
 lastUpdated: "2024-11-21T00:00:00Z"
-image: "/blog/flag-america-2.jpg"
+image: "/blog/ai1.png"
 tags:
  - "AI"
  - "business"

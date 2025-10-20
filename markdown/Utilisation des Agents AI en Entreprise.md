@@ -12,7 +12,7 @@ category: "Intelligence Artificielle"
 description: "Comment les entreprises transforment leurs processus internes grâce aux agents intelligents."
 date: "2025-10-18T00:00:00Z"
 lastUpdated: "2025-10-18T00:00:00Z"
-image: "/blog/ai-agents.jpg"
+image: "/blog/ai.jpeg"
 tags:
  - "AI"
  - "automation"

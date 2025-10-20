@@ -968,7 +968,7 @@ function BlogPost({ blog, relatedBlogs, authorBlogs, mostViewedBlogs }) {
     );
   }
 
-  const currentUrl = typeof window !== "undefined" ? window.location.href : `https://peternz.vercel.app/blog/${blog.slug}`;
+  const currentUrl = typeof window !== "undefined" ? window.location.href : `https://peternz.netlify.app/blog/${blog.slug}`;
   const readTime = calculateReadTime(blog.content);
   
   const defaultAuthorImage = blog.authorGender === 'F' ? '/default-avatar-2.png' : '/default-avatar.png';
@@ -980,7 +980,7 @@ function BlogPost({ blog, relatedBlogs, authorBlogs, mostViewedBlogs }) {
         description={blog.description}
         keywords={blog.keywords || []}
         image={blog.image}
-        url={`https://peternz.vercel.app/blog/${blog.slug}`}
+        url={`https://peternz.netlify.app/blog/${blog.slug}`}
         datePublished={blog.date}
         lastUpdated={blog.lastUpdated}
         author={blog.author}

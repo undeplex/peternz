@@ -34,8 +34,8 @@ export default function Blogs({ recentPosts, featuredPosts, mostViewedPosts }) {
   const seoProps = {
     title: "Recent Blogs | New, Popular & Most Visited Articles",
     description: "Discover our most recent blogs, popular posts, and trending articles.",
-    url: "https://peternz.vercel.app/blogs",
-    image: "https://peternz.vercel.app/og-image.jpg",
+    url: "https://peternz.netlify.app/blogs",
+    image: "https://peternz.netlify.app/og-image.jpg",
     siteName: "Your Blog Site",
     datePublished: "2024-11-15",
     dateModified: "2024-11-15",
@@ -57,7 +57,7 @@ export default function Blogs({ recentPosts, featuredPosts, mostViewedPosts }) {
 </div>
 
 <h1 className="text-4xl play font-bold text-center mb-6">Recent Blogs (Last 5 Days)</h1>
-        <div className="grid px-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div className="grid px-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3  gap-6">
           {recentPosts.map(post => (
             <RecentPost key={post.id} post={post} />
           ))}
@@ -70,8 +70,11 @@ export default function Blogs({ recentPosts, featuredPosts, mostViewedPosts }) {
         <div className="px-6 my-4">
         <h1 className="md:text-5xl text-3xl font-bold  bg-red-400 play text-transparent dark:from-blue-50 dark:to-gray-500 bg-clip-text bg-gradient-to-r mb-0 from-green-400 to-blue-500">Founder</h1>
 
+<div className="flex md:flex-row flex-col  mt-4 items-center justify-center gap-4">
+
         <Profiler/>
         <SubscribeForm/>
+</div>
         </div>
       </div>
     </Layout>

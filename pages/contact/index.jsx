@@ -117,7 +117,7 @@ const Contact = () => {
           content="Get in touch with me at Peternz. Fill out the contact form or reach out via email, WhatsApp, Facebook, GitHub, LinkedIn, or Twitter."
         />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://peternz.vercel.app/contact" />
+        <link rel="canonical" href="https://peternz.netlify.app/contact" />
       </Head>
 
       <div className="min-h-screen bg-white dark:bg-gray-900 py-16 px-4 sm:px-6 lg:px-8">

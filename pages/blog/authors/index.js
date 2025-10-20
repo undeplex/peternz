@@ -76,7 +76,7 @@ export default function AuthorsPage({ authors }) {
           content="Discover all authors contributing to Peternz. Explore their profiles and writings."
         />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://peternz.vercel.app/blog/authors" />
+        <link rel="canonical" href="https://peternz.netlify.app/blog/authors" />
       </Head>
       
       <div className="min-h-screen dark:bg-black bg-gray-50">

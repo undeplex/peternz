@@ -21,7 +21,7 @@ const SEOBlog = ({ title, description, url, image }) => {
       <meta property="og:type" content="website" />
       <meta property="og:title" content={title || defaultTitle} />
       <meta property="og:description" content={description || defaultDescription} />
-      <meta property="og:url" content={url || 'https://peternz.vercel.app/blog'} />
+      <meta property="og:url" content={url || 'https://peternz.netlify.app/blog'} />
       <meta property="og:image" content={image || defaultImage} />
       <meta property="og:site_name" content={siteName} />
 

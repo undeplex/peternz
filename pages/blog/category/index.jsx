@@ -105,7 +105,7 @@ export default function CategoriesPage({ categories }) {
   const seoDescription = "Explore all available categories on our blog. Find posts about various topics that interest you.";
   const seoKeywords = "blog categories, topics, blogs, explore categories";
   const seoImage = "/default-category-image.jpg";
-  const seoUrl = "https://peternz.vercel.app/categories";
+  const seoUrl = "https://peternz.netlify.app/categories";
 
   if (isLoading) {
     return (

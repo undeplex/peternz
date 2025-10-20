@@ -12,7 +12,7 @@ category: "English"
 description: "It's a type of misunderstanding when it comes to builing our own foreign language skill"
 date: "2024-01-30T00:00:00Z"
 lastUpdated: "2024-11-21T00:00:00Z"
-image: "/blog/flag-america-2.jpg"
+image: "/blog/self.png"
 tags:
  - "Learning"
  - "Knowledge"

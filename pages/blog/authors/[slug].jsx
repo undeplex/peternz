@@ -180,7 +180,7 @@ export default function AuthorPage({ author, posts, authorImage, initialBlogs })
           content={`Explore all posts written by ${author} on Peternz. Discover insights, stories, and expertise.`}
         />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href={`https://peternz.vercel.app/blog/authors/${author}`} />
+        <link rel="canonical" href={`https://peternz.netlify.app/blog/authors/${author}`} />
       </Head>
 
       {/* MÊME structure HTML que BlogPage */}

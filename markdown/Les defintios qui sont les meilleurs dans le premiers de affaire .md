@@ -11,7 +11,7 @@ category: "science et life-style"
 description: "Maîtriser les bases du développement web ne suffit pas ; savoir gérer efficacement un projet fait toute la différence."
 date: "2024-05-13T00:00:00Z"
 lastUpdated: "2024-11-21T00:00:00Z"
-image: "/blog/web-project-management.jpg"
+image: "/blog/boost.png"
 tags:
   - "Gestion de projet"
   - "Développement web"

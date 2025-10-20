@@ -1,53 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url><loc>https://peternz.vercel.app</loc><lastmod>2025-10-20T20:45:48.332Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://peternz.vercel.app/blog</loc><lastmod>2025-10-20T20:45:48.333Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://peternz.vercel.app/blog/authors</loc><lastmod>2025-10-20T20:45:48.333Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://peternz.vercel.app/blog/category</loc><lastmod>2025-10-20T20:45:48.333Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://peternz.vercel.app/blog/tags</loc><lastmod>2025-10-20T20:45:48.333Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://peternz.vercel.app/contact</loc><lastmod>2025-10-20T20:45:48.333Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://peternz.vercel.app/read-later</loc><lastmod>2025-10-20T20:45:48.333Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://peternz.vercel.app/search</loc><lastmod>2025-10-20T20:45:48.333Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://peternz.vercel.app/blog/authors/decker kein</loc><lastmod>2025-10-20T20:45:48.333Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://peternz.vercel.app/blog/authors/peter nzana</loc><lastmod>2025-10-20T20:45:48.333Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://peternz.vercel.app/blog/tags/developers</loc><lastmod>2025-10-20T20:45:48.334Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://peternz.vercel.app/blog/tags/ai</loc><lastmod>2025-10-20T20:45:48.334Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://peternz.vercel.app/blog/tags/technology</loc><lastmod>2025-10-20T20:45:48.334Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://peternz.vercel.app/blog/tags/future</loc><lastmod>2025-10-20T20:45:48.334Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://peternz.vercel.app/blog/tags/nextjs</loc><lastmod>2025-10-20T20:45:48.334Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://peternz.vercel.app/blog/tags/web-development</loc><lastmod>2025-10-20T20:45:48.334Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://peternz.vercel.app/blog/tags/react</loc><lastmod>2025-10-20T20:45:48.334Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://peternz.vercel.app/blog/tags/automation</loc><lastmod>2025-10-20T20:45:48.334Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://peternz.vercel.app/blog/tags/business</loc><lastmod>2025-10-20T20:45:48.334Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://peternz.vercel.app/blog/tags/workflow</loc><lastmod>2025-10-20T20:45:48.334Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://peternz.vercel.app/blog/tags/production</loc><lastmod>2025-10-20T20:45:48.334Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://peternz.vercel.app/blog/tags/learning</loc><lastmod>2025-10-20T20:45:48.334Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://peternz.vercel.app/blog/tags/web development</loc><lastmod>2025-10-20T20:45:48.334Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://peternz.vercel.app/blog/tags/education</loc><lastmod>2025-10-20T20:45:48.334Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://peternz.vercel.app/blog/tags/knowledge</loc><lastmod>2025-10-20T20:45:48.334Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://peternz.vercel.app/blog/tags/gestion de projet</loc><lastmod>2025-10-20T20:45:48.334Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://peternz.vercel.app/blog/tags/développement web</loc><lastmod>2025-10-20T20:45:48.334Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://peternz.vercel.app/blog/tags/productivité</loc><lastmod>2025-10-20T20:45:48.334Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://peternz.vercel.app/blog/tags/it management</loc><lastmod>2025-10-20T20:45:48.334Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://peternz.vercel.app/blog/tags/infrastructure</loc><lastmod>2025-10-20T20:45:48.334Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://peternz.vercel.app/blog/tags/windows server</loc><lastmod>2025-10-20T20:45:48.334Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://peternz.vercel.app/blog/tags/windows-server</loc><lastmod>2025-10-20T20:45:48.334Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://peternz.vercel.app/blog/tags/cybersecurity</loc><lastmod>2025-10-20T20:45:48.334Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://peternz.vercel.app/blog/tags/it-management</loc><lastmod>2025-10-20T20:45:48.334Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://peternz.vercel.app/blog/tags/system-administration</loc><lastmod>2025-10-20T20:45:48.334Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://peternz.vercel.app/blog/tags/tailwindcss</loc><lastmod>2025-10-20T20:45:48.334Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://peternz.vercel.app/blog/tags/conception-web</loc><lastmod>2025-10-20T20:45:48.334Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://peternz.vercel.app/blog/category/technology</loc><lastmod>2025-10-20T20:45:48.334Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://peternz.vercel.app/blog/category/intelligence artificielle</loc><lastmod>2025-10-20T20:45:48.334Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://peternz.vercel.app/blog/category/artificial intelligence</loc><lastmod>2025-10-20T20:45:48.334Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://peternz.vercel.app/blog/category/learning-all</loc><lastmod>2025-10-20T20:45:48.334Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://peternz.vercel.app/blog/category/english</loc><lastmod>2025-10-20T20:45:48.334Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://peternz.vercel.app/blog/category/science et life-style</loc><lastmod>2025-10-20T20:45:48.334Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://peternz.vercel.app/blog/category/computer science</loc><lastmod>2025-10-20T20:45:48.334Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://peternz.vercel.app/blog/category/informatique</loc><lastmod>2025-10-20T20:45:48.334Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://peternz.vercel.app/blog/7-raisons-pour-les-quelles-les-développeurs-resteront-indispensables-à-l’ère-de-l’ia</loc><lastmod>2025-10-20T20:45:48.334Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://peternz.vercel.app/blog/build-a-dynamic-blog-with-next.js-14</loc><lastmod>2025-10-20T20:45:48.334Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://peternz.vercel.app/blog/utilisation-des-agents-ai-en-entreprise</loc><lastmod>2025-10-20T20:45:48.334Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://peternz.vercel.app/blog/les-dangers-cachés-derrière-l’automatisation-des-workflows-d’entreprise-par-l’ia</loc><lastmod>2025-10-20T20:45:48.334Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://peternz.vercel.app/blog/pourquoi-faire-appel-à-un-professionnel-pour-les-applications-en-production-d’entreprise</loc><lastmod>2025-10-20T20:45:48.334Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://peternz.netlify.app</loc><lastmod>2025-10-20T23:57:55.759Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://peternz.netlify.app/blog</loc><lastmod>2025-10-20T23:57:55.771Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://peternz.netlify.app/blog/authors</loc><lastmod>2025-10-20T23:57:55.771Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://peternz.netlify.app/blog/category</loc><lastmod>2025-10-20T23:57:55.772Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://peternz.netlify.app/blog/tags</loc><lastmod>2025-10-20T23:57:55.772Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://peternz.netlify.app/contact</loc><lastmod>2025-10-20T23:57:55.772Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://peternz.netlify.app/read-later</loc><lastmod>2025-10-20T23:57:55.772Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://peternz.netlify.app/search</loc><lastmod>2025-10-20T23:57:55.772Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://peternz.netlify.app/blog/category/technology</loc><lastmod>2025-10-20T23:57:55.772Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://peternz.netlify.app/blog/category/intelligence artificielle</loc><lastmod>2025-10-20T23:57:55.772Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://peternz.netlify.app/blog/category/développement web</loc><lastmod>2025-10-20T23:57:55.773Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://peternz.netlify.app/blog/category/anglais pratique</loc><lastmod>2025-10-20T23:57:55.773Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://peternz.netlify.app/blog/category/learning-all</loc><lastmod>2025-10-20T23:57:55.773Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://peternz.netlify.app/blog/category/english</loc><lastmod>2025-10-20T23:57:55.773Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://peternz.netlify.app/blog/category/artificial intelligence</loc><lastmod>2025-10-20T23:57:55.773Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://peternz.netlify.app/blog/category/science et life-style</loc><lastmod>2025-10-20T23:57:55.773Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://peternz.netlify.app/blog/category/computer science</loc><lastmod>2025-10-20T23:57:55.773Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://peternz.netlify.app/blog/category/devops &amp; déploiement</loc><lastmod>2025-10-20T23:57:55.773Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://peternz.netlify.app/blog/category/informatique</loc><lastmod>2025-10-20T23:57:55.773Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://peternz.netlify.app/blog/tags/developers</loc><lastmod>2025-10-20T23:57:55.773Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://peternz.netlify.app/blog/tags/ai</loc><lastmod>2025-10-20T23:57:55.773Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://peternz.netlify.app/blog/tags/technology</loc><lastmod>2025-10-20T23:57:55.773Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://peternz.netlify.app/blog/tags/future</loc><lastmod>2025-10-20T23:57:55.773Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://peternz.netlify.app/blog/tags/nextjs</loc><lastmod>2025-10-20T23:57:55.773Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://peternz.netlify.app/blog/tags/web-development</loc><lastmod>2025-10-20T23:57:55.773Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://peternz.netlify.app/blog/tags/react</loc><lastmod>2025-10-20T23:57:55.773Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://peternz.netlify.app/blog/tags/automation</loc><lastmod>2025-10-20T23:57:55.773Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://peternz.netlify.app/blog/tags/business</loc><lastmod>2025-10-20T23:57:55.773Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://peternz.netlify.app/blog/tags/développement web</loc><lastmod>2025-10-20T23:57:55.773Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://peternz.netlify.app/blog/tags/programmation</loc><lastmod>2025-10-20T23:57:55.773Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://peternz.netlify.app/blog/tags/frontend</loc><lastmod>2025-10-20T23:57:55.773Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://peternz.netlify.app/blog/tags/backend</loc><lastmod>2025-10-20T23:57:55.773Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://peternz.netlify.app/blog/tags/carrière</loc><lastmod>2025-10-20T23:57:55.773Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://peternz.netlify.app/blog/tags/anglais</loc><lastmod>2025-10-20T23:57:55.773Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://peternz.netlify.app/blog/tags/phrasal verbs</loc><lastmod>2025-10-20T23:57:55.773Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://peternz.netlify.app/blog/tags/communication</loc><lastmod>2025-10-20T23:57:55.773Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://peternz.netlify.app/blog/tags/vocabulaire</loc><lastmod>2025-10-20T23:57:55.773Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://peternz.netlify.app/blog/tags/erreurs courantes</loc><lastmod>2025-10-20T23:57:55.773Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://peternz.netlify.app/blog/tags/grammaire</loc><lastmod>2025-10-20T23:57:55.773Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://peternz.netlify.app/blog/tags/prononciation</loc><lastmod>2025-10-20T23:57:55.773Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://peternz.netlify.app/blog/tags/apprentissage</loc><lastmod>2025-10-20T23:57:55.773Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://peternz.netlify.app/blog/tags/méthodologie</loc><lastmod>2025-10-20T23:57:55.773Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://peternz.netlify.app/blog/tags/progression</loc><lastmod>2025-10-20T23:57:55.773Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://peternz.netlify.app/blog/tags/learning</loc><lastmod>2025-10-20T23:57:55.773Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://peternz.netlify.app/blog/tags/web development</loc><lastmod>2025-10-20T23:57:55.773Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://peternz.netlify.app/blog/tags/education</loc><lastmod>2025-10-20T23:57:55.773Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://peternz.netlify.app/blog/tags/knowledge</loc><lastmod>2025-10-20T23:57:55.773Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://peternz.netlify.app/blog/tags/workflow</loc><lastmod>2025-10-20T23:57:55.773Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://peternz.netlify.app/blog/tags/gestion de projet</loc><lastmod>2025-10-20T23:57:55.774Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://peternz.netlify.app/blog/tags/productivité</loc><lastmod>2025-10-20T23:57:55.774Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
 </urlset>

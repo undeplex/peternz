@@ -3,7 +3,7 @@ id: 2
 featured: 
 element: false
 views: 40
-title: "Petite et Moyenne Entreprise : Meilleures Pratiques de Déploiement de Windows Server"
+title: "Petite et Moyenne Entreprise , Meilleures Pratiques de Deploiement de Windows Server"
 author: "Peter Nzana"
 authorGender: M
 authorImage: "/peterNz.jpg"

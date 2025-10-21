@@ -57,31 +57,31 @@ const MobileMenu = () => {
       </button>
 
       <div className={`fixed text-gray-600 dark:text-white top-13 left-0 w-full px-6 bg-gray-5 h-screen dark:bg-slate-900 bg-white rounded-bl-3xl z-50 transform transition-transform ${isOpen ? 'translate-x-0' : '-translate-x-[900px]'}`}>
-        <div ref={menuRef} className="flex pt-5 flex-col space-y-3 play gap-2 text-xl">
+        <div ref={menuRef} className="flex pt-5 flex-col space-y-3  gap-2 text-xl">
           <Link href="/">
-            <span className="hover:text-blue-500 play text-3xl">Home</span>
+            <span className="hover:text-blue-500  text-3xl">Home</span>
           </Link>
           <Link href="/blog">
-            <span className="hover:text-blue-500 play text-3xl">Blog</span>
+            <span className="hover:text-blue-500  text-3xl">Blog</span>
           </Link>
           <Link href="/contact">
-            <span className="hover:text-blue-500 play text-3xl">Contact</span>
+            <span className="hover:text-blue-500  text-3xl">Contact</span>
           </Link>
           <Link href="/blog/tags">
-            <span className="hover:text-blue-500 play text-3xl">Popular tags</span>
+            <span className="hover:text-blue-500  text-3xl">Popular tags</span>
           </Link>
-          <Link href="/authors">
-            <span className="hover:text-blue-500 play text-3xl">Auteurs</span>
+          <Link href="/blog/authors">
+            <span className="hover:text-blue-500  text-3xl">Auteurs</span>
           </Link>
           <Link href="/read-later">
-            <span className="hover:text-blue-500 play text-3xl">Read Later</span>
+            <span className="hover:text-blue-500  text-3xl">Read Later</span>
           </Link>
 
           {/* Dropdown Menu for Categories */}
           <div className="relative">
             <button
               onClick={() => setDropdownOpen(!dropdownOpen)}
-              className="hover:text-blue-500 play text-3xl flex items-center"
+              className="hover:text-blue-500  text-3xl flex items-center"
             >
               Category
               <span className={`ml-2 transform transition-transform ${dropdownOpen ? 'rotate-180' : ''}`}>
@@ -92,7 +92,7 @@ const MobileMenu = () => {
               <div ref={dropdownRef}>
                 {categories.map((category) => (
                   <Link key={category} href={`/blog/category/${category.toLowerCase()}`}>
-                    <span className="block text-2xl play px-4 py-2 hover:bg-gray-200 dark:hover:bg-gray-700">
+                    <span className="block text-2xl  px-4 py-2 hover:bg-gray-200 dark:hover:bg-gray-700">
                       {category}
                     </span>
                   </Link>
@@ -102,7 +102,7 @@ const MobileMenu = () => {
           </div>
 
           <Link href="/">
-            <span className="hover:text-blue-500 play text-3xl">About Doic LLC</span>
+            <span className="hover:text-blue-500  text-3xl">About Doic LLC</span>
           </Link>
         </div>
       </div>

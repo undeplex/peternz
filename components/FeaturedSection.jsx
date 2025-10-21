@@ -219,7 +219,7 @@ const FeaturedSection = ({ featuredPosts }) => {
         </div>
 
         {/* Popular Articles Section */}
-        <div className="mb-12">
+        <div className="mb-3 text-left">
           <div className="flex justify-between items-center mb-8">
             <div>
               <h3 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">
@@ -230,8 +230,8 @@ const FeaturedSection = ({ featuredPosts }) => {
               </p>
             </div>
             <Link href="/blog" passHref>
-              <button className="group flex items-center gap-2 px-6 py-3 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-lg hover:bg-blue-600 hover:text-white dark:hover:bg-blue-600 transition-all duration-300 font-semibold">
-                Voir tous
+              <button className="group flex items-center gap-2 p-4 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-full hover:bg-blue-600 hover:text-white dark:hover:bg-blue-600 transition-all duration-300 font-semibold">
+                All
                 <Plus className="w-4 h-4 group-hover:rotate-90 transition-transform duration-300" />
               </button>
             </Link>
